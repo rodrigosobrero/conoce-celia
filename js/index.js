@@ -16,4 +16,7 @@ $(document).ready(() => {
       .removeClass('is-invalid')
       .addClass('is-valid');
   });
+
+  let video = document.getElementsByTagName('video')[0];
+  video.play();
 });
